@@ -18,3 +18,6 @@ examples thus some of the code is Copyright © 2001-2013 Python
 Software Foundation; All Rights Reserved under the PSF license (GPL
 compatible) http://docs.python.org/2/library/socketserver.html
 
+Much of the code found in the "connect" method in the HTTPClient class is a
+derivative of code found in "client.py" from https://eclass.srv.ualberta.ca/mod/folder/view.php?id=4969305
+(CMPUT 404 Lab 2)
