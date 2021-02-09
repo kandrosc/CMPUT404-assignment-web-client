@@ -48,7 +48,7 @@ class HTTPClient(object):
         except socket.gaierror:
                 print ('Hostname could not be resolved. Exiting')
                 return 1
-        self.socket.connect((host,port))
+        self.socket.connect((remote_ip,port))
         return 0
 
     def get_code(self, data):
